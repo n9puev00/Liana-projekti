@@ -1,0 +1,151 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    font-size: small;
+}
+
+.btn-green {
+    background-color: #4c8930;
+    color: white;
+}
+
+.background {
+    background-color: #4c8930;
+    text-align: right;
+    padding-right: 5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    padding-right: 20px;
+    padding-left: 5em;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .centered {
+      font-size: large;
+    }
+  }
+
+.rounded {
+    margin-top: 3em;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 48px;
+    color: #4c8930;
+    position: relative;
+}
+
+.number {
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+.feed {
+    background-color: #eceeef;
+    margin-top: 3em;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 2em;
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;  
+    padding: 14px 14px;
+}
+
+footer a:hover {
+    color: #4c8930;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .navbar {
+    float: right;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 4em; 
+}
+
+.fab {
+    color: #4c8930;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.icons {
+    float: right;
+    margin-right: 5em;
+    margin-top: 5px;
+    margin-bottom: 3em;
+}
+
+.left {
+    padding-left: 5em;
+}
+
+.card-deck {
+    margin: 0 -15px;
+    justify-content: space-between;
+  }
+  
+  .card-deck .card {
+    margin: 0 0 1rem;
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 48.7%;
+      flex: 0 0 48.7%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .card-deck .card {
+      -ms-flex: 0 0 24%;
+      flex: 0 0 24%;
+    }
+  }
